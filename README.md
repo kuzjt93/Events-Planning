@@ -5,8 +5,6 @@ Peer project
 
 -[Getting Started](#getting-started)
   - [Installation](#installation)
-  - [Setup](#setup)
-  - [Startup](#startup)
   
 ## Getting Started
   
