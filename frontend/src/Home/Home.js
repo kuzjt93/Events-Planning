@@ -34,7 +34,7 @@ const Home = () => {
               <Link
                 class="nav-link active d-none d-md-block"
                 aria-current="page"
-                href="#home"
+                to="#home"
               >
                 The Event Planner
               </Link>
@@ -42,28 +42,28 @@ const Home = () => {
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link class="nav-link" href="#shopping">
+              <Link class="nav-link" to="#shopping">
                 Shopping List
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" href="#guests">
+              <Link class="nav-link" to="#guests">
                 Guest List
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" href="#menu">
+              <Link class="nav-link" to="#menu">
                 Menu
               </Link>
             </li>
 
             <li class="nav-item">
-              <Link class="nav-link" href="#budget">
+              <Link class="nav-link" to="#budget">
                 Budgeter
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" href="#seats">
+              <Link class="nav-link" to="#seats">
                 Seating List
               </Link>
             </li>
