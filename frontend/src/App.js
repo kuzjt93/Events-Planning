@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
+      <p>hello</p>
       <Navbar />
       <Routes>
         <Route path="home" element={<Home />} />
