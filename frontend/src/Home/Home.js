@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MenuView from "../Menu/MenuView";
 
 const Home = () => {
   return (
@@ -52,7 +53,7 @@ const Home = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="#menu">
+              <Link class="nav-link" to="/menu">
                 Menu
               </Link>
             </li>
