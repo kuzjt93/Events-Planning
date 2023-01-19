@@ -1,86 +1,86 @@
 [
    {
-       "id": 1,
-       "name": "John Smith",
-       "group_type": "family",
-       "number_of_guests": 4
+      "id": 1,
+      "name": "John Smith",
+      "group_type": "family",
+      "number_of_guests": 4
    },
    {
-       "id": 2,
-       "name": "Jane Doe",
-       "group_type": "friends",
-       "number_of_guests": 2
+      "id": 2,
+      "name": "Jane Doe",
+      "group_type": "friends",
+      "number_of_guests": 2
    },
    {
-       "id": 3,
-       "name": "Bob Johnson",
-       "group_type": "guest",
-       "number_of_guests": 1
+      "id": 3,
+      "name": "Bob Johnson",
+      "group_type": "guest",
+      "number_of_guests": 1
    },
    {
-       "id": 4,
-       "name": "Amy Rodriguez",
-       "group_type": "friends",
-       "number_of_guests": 8
+      "id": 4,
+      "name": "Amy Rodriguez",
+      "group_type": "friends",
+      "number_of_guests": 8
    },
    {
-       "id": 5,
-       "name": "Michael Davis",
-       "group_type": "family",
-       "number_of_guests": 6
+      "id": 5,
+      "name": "Michael Davis",
+      "group_type": "family",
+      "number_of_guests": 6
    },
    {
-       "id": 6,
-       "name": "Jessica Miller",
-       "group_type": "relatives",
-       "number_of_guests": 2
+      "id": 6,
+      "name": "Jessica Miller",
+      "group_type": "relatives",
+      "number_of_guests": 2
    },
    {
-       "id": 7,
-       "name": "Mark Wilson",
-       "group_type": "guest",
-       "number_of_guests": 1
+      "id": 7,
+      "name": "Mark Wilson",
+      "group_type": "guest",
+      "number_of_guests": 1
    },
    {
-       "id": 8,
-       "name": "Rachel Garcia",
-       "group_type": "friends",
-       "number_of_guests": 10
+      "id": 8,
+      "name": "Rachel Garcia",
+      "group_type": "friends",
+      "number_of_guests": 10
    },
    {
-       "id": 9,
-       "name": "David Martinez",
-       "group_type": "family",
-       "number_of_guests": 5
+      "id": 9,
+      "name": "David Martinez",
+      "group_type": "family",
+      "number_of_guests": 5
    },
    {
-       "id": 10,
-       "name": "Gloria Anderson",
-       "group_type": "relatives",
-       "number_of_guests": 2
+      "id": 10,
+      "name": "Gloria Anderson",
+      "group_type": "relatives",
+      "number_of_guests": 2
    },
    {
-       "id": 11,
-       "name": "Joshua Thomas",
-       "group_type": "guest",
-       "number_of_guests": 1
+      "id": 11,
+      "name": "Joshua Thomas",
+      "group_type": "guest",
+      "number_of_guests": 1
    },
    {
-       "id": 12,
-       "name": "Ashley Hernandez",
-       "group_type": "friends",
-       "number_of_guests": 12
+      "id": 12,
+      "name": "Ashley Hernandez",
+      "group_type": "friends",
+      "number_of_guests": 12
    },
    {
-       "id": 13,
-       "name": "Brian Moore",
-       "group_type": "family",
-       "number_of_guests": 4
+      "id": 13,
+      "name": "Brian Moore",
+      "group_type": "family",
+      "number_of_guests": 4
    },
    {
-       "id": 14,
-       "name": "Tim Brown",
-       "group_type": "relatives",
-       "number_of_guests": 2
+      "id": 14,
+      "name": "Tim Brown",
+      "group_type": "relatives",
+      "number_of_guests": 2
    }
 ]

@@ -1,19 +1,19 @@
 import React from "react";
-import { GuestForm } from "./components/GuestForm";
+import { GuestForm } from "./components";
 
-export const NewGuestPage = () => {
+export const AddGuestPage = () => {
 	const [guest, setGuest] = React.useState({});
 
 	const changeHandler = ({ target: { name, value } }) => {
-		setGuest({
-			...guest,
+		setGuest((prev) => ({
+			...prev,
 			[name]: value,
-		});
+		}));
 	};
 
 	const submitHandler = (e) => {
 		e.preventDefault();
-		console.log("submit");
+		console.log("submit", guest);
 	};
 
 	return (

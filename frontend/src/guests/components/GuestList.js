@@ -1,21 +1,28 @@
 import React from "react";
-import { DeleteGuestButton } from "./DeleteGuestButton";
-import { EditGuestButton } from "./EditGuestButton";
+import { PrimaryButton } from "../../components";
 import { GuestView } from "./GuestView";
 const guests = require("../guests.json");
 
 export const GuestList = () => {
-  const list = guests?.map((guest) => (
-    <div>
-      <GuestView guest={guest} />
-      <DeleteGuestButton id={guest.id} />
-      <EditGuestButton href={`/guest-list/${guest.id}/edit`} />
-    </div>
-  ));
+	const deleteButtonHandler = () => {
+		console.log("delete");
+	};
 
-  if (!list) {
-    return <h3>Loading...</h3>;
-  }
+	const list = guests?.map((guest) => (
+		<div key={guest.id}>
+			<GuestView guest={guest} />
+			<PrimaryButton click={deleteButtonHandler} alt="delete-button">
+				Delete
+			</PrimaryButton>
+			<PrimaryButton href={`${guest.id}/edit`} alt="edit-button">
+				Edit
+			</PrimaryButton>
+		</div>
+	));
 
-  return <React.Fragment>{list}</React.Fragment>;
+	if (!list) {
+		return <h3>Loading...</h3>;
+	}
+
+	return <React.Fragment>{list}</React.Fragment>;
 };
